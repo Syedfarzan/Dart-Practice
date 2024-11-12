@@ -79,12 +79,34 @@
 
 // Q.4 Write a Dart program to check if a number is odd or even.
 
+// void main(){
+//   int number = 2;
+//     if(number%2==0){
+//       print("Even Number");
+//     }
+//     else{
+//       print("Odd Number");
+//     }
+// }
+
 void main(){
-  int number = 2;
-    if(number%2==0){
-      print("Even Number");
+  int side1 = 3;
+  int side2 = 1;
+  int side3 =2;
+
+  if (side1 == side2) {
+    if(side2 == side3){
+      print("Equilateral triangle");
+    }else{
+       print("Isosceles triangle");
+    }
+
+  } else {
+    if (side1 == side3 || side2 == side3){
+      print("Isosceles Triangle");
     }
     else{
-      print("Odd Number");
+      print("Scalene Triangle");
     }
+  }
 }

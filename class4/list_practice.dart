@@ -53,26 +53,38 @@
 // D if the score is between 60 and 69.
 // F if the score is below 60.
 
-void main(){
-  int score = 120;
+// void main(){
+//   int score = 120;
 
-  if (score >= 90 && score <=100) {
-    print("A grade");
-  }
-  else if(score >=80 && score <=90){
-    print("B Grade");
-  }
-  else if(score >= 70 && score <=79){
-    print("C Grade");
-  }
-  else if(score >=60 && score <= 69){
-    print("D Grade");
-}
-  else {
-    if(score < 60){
-      print("Failed");
-    } else{
-      print("Enter valid Number");
-    }   
-  } 
+//   if (score >= 90 && score <=100) {
+//     print("A grade");
+//   }
+//   else if(score >=80 && score <=90){
+//     print("B Grade");
+//   }
+//   else if(score >= 70 && score <=79){
+//     print("C Grade");
+//   }
+//   else if(score >=60 && score <= 69){
+//     print("D Grade");
+// }
+//   else {
+//     if(score < 60){
+//       print("Failed");
+//     } else{
+//       print("Enter valid Number");
+//     }   
+//   } 
+// }
+
+// Q.4 Write a Dart program to check if a number is odd or even.
+
+void main(){
+  int number = 2;
+    if(number%2==0){
+      print("Even Number");
+    }
+    else{
+      print("Odd Number");
+    }
 }

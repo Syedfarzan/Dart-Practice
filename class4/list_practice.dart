@@ -54,9 +54,9 @@
 // F if the score is below 60.
 
 void main(){
-  int score = 90;
+  int score = 120;
 
-  if (score >= 90) {
+  if (score >= 90 && score <=100) {
     print("A grade");
   }
   else if(score >=80 && score <=90){
